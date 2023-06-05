@@ -1,0 +1,108 @@
+.animation{
+  position: relative;
+ font-size: 80px;
+ font-weight: 400;
+ color: #fff !important;
+}
+
+.animation::after{
+  content: "|";
+  animation-name: typing;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+span{
+  font-size: 70px;
+  font-weight: 100;
+  color: #D5D8DA !important;
+}
+
+
+
+
+
+@keyframes typing{
+  0%{
+    content: "|";
+  }
+  3%{
+    content: "F|";
+  }
+  6%{
+    content: "Fr|";
+  }
+  9%{
+    content: "Fro|";
+  }
+  12%{
+    content: "Fron |";
+  }
+  15%{
+    content: "Front|";
+  }
+  18%{
+    content: "Front - |";
+  }
+  21%{
+    content: "Front - e|";
+  }
+  24%{
+    content: "Front - en|";
+  }
+  27%{
+    content: "Front - end|";
+  }
+  30%{
+    content: "Front - end |";
+  }
+
+ 
+
+  78%{
+    content: "Front - end|";
+  }
+  81%{
+    content: "Front - en|";
+  }
+  84%{
+    content: "Front - e|";
+  }
+  87%{
+    content: "Front -|";
+  }
+  90%{
+    content: "Front|";
+  }
+  91%{
+    content: "Fron|";
+  }
+  93%{
+    content: "Fro|";
+  }
+  94%{
+    content: "Fr|";
+  }
+  96%{
+    content: "F|";
+  }
+  98%{
+    content: "|";
+  }
+  
+
+  99%{
+    content: "|";
+  }
+  100%{
+    content: "|";
+  }
+  100%{
+    content: "|";
+  }
+
+/* 100%{
+    content: "Welcome |";
+  } */
+
+}
